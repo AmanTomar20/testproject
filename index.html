@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="icon" href="simon.png">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="level-title">Simon Game</h1>
+  <button id="start-btn">New Game</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div type="button" id="green" class="btn green btn-success"></div>
+      </div>
+      
+      <div class="col-6">
+        <div type="button" id="red" class="btn red btn-danger"></div>
+      </div>
+      
+    </div>
+
+    <div class="row">
+      <div class="col-6">
+        <div type="button" id="yellow" class="btn yellow btn-warning"></div>
+      </div>
+      <div class="col-6">
+        <div type="button" id="blue" class="btn blue btn-primary"></div>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
